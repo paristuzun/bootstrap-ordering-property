@@ -4,7 +4,7 @@ body {
 }
 
 h1 {
-    margin-bottom: 4rem;
+    margin-bottom: 3rem;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: scale;
     font-family: proxima-nova,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif;
@@ -12,7 +12,8 @@ h1 {
     text-align: center;
 }
 
-.mt-md-5, .my-md-5 {
+.mt-md-5, .my-md-5,
+.row.align-items-center.mt-6 {
     margin: 3rem 0;
 }
 
@@ -24,8 +25,4 @@ h1 {
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
-}
-
-.row.align-items-center.mt-6 {
-    margin: 4rem 0;
 }
