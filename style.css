@@ -17,12 +17,31 @@ h1 {
     margin: 3rem 0;
 }
 
-@media (min-width: 992px)
+.mt-4, .my-4 {
+    margin-top: 1.5rem!important;
+    margin-bottom: 1.5rem;
+}    
+
+@media (min-width: 992px) {
 .h1, h1 {
     font-size: 3.5rem;
-}
+    }
+
+}    
 
 .lead {
     font-size: 1.25rem;
     font-weight: 300;
 }
+
+@media (max-width: 992px) {
+.ml-auto {
+    margin-right: auto !important;
+    }
+
+    .mt-4, .my-4 {
+        margin-top: 0!important;
+        margin-bottom: 0;
+    }      
+}
+
